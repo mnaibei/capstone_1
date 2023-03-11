@@ -1,14 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>+254 🇰🇪 Concerts: Kenya's Concerts Website</title>
 </head>
+
 <body>
-    
+  <main>
+    <section>
+      <div class="container-fluid intro d-flex flex-column align-items-start justify-content-evenly">
+        <header>
+          <div class="navbar">
+            <div class="container">
+              <ul class="mobile">
+                <li class="nav-mobile"><a href="#event" class="event-page">Event</a></li>
+                <li class="nav-mobile"><a href="about.html" class="about">About</a></li>
+                <li class="nav-mobile"><a href="#logo" class="logo">Logo</a></li>
+              </ul>
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="welcome-container">
+          <h2 class="welcome top">Welcome all!</h2>
+          <h1 class="welcome fw-bold">TO THE GREATEST CONCERT WEEK</br>
+            <div> IN THE 254🔥</div>
+          </h1>
+          <p class="desc border border-white border-3 bg-light">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tempore quaerat doloribus eius, animi
+            commodi provident at vero aliquid minus dicta saepe ex vitae facere voluptatibus optio facilis accusamus
+            earum voluptatem reprehenderit corrupti alias? Corrupti error veritatis laboriosam repellendus
+            voluptates, voluptatibus saepe, ipsa, laborum ex quae rerum sed quia mollitia?
+          </p>
+          <h2 id="date" class=" date fw-bold">13.03.2023 (MON) ~ 17 (FRI)</h2>
+          <p id="place" class="place">@NAIROBI, KENYA</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid event d-flex flex-column align-items-center my-5 p-4">
+        <h2 class="event_deets_header">What to expect</h2>
+        <hr align="center" width="10%" size="4">
+        <ul>
+          <li class="border m-2 event_main d-flex align-items-center justify-content-center">
+            <img class="event_logo mx-2" src="images/program_icon_01.png" alt="music logo">
+            <h4 class="event_name m-3">Music</h4>
+            <p class="event_deets text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </li>
+          <li class="border m-2 event_main d-flex align-items-center">
+            <img class="event_logo mx-2" src="images/program_icon_02.png" alt="culture logo">
+            <h4 class="event_name m-3">Dance</h4>
+            <p class="event_deets text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </li>
+          <li class="border m-2 event_main d-flex  align-items-center">
+            <img class="event_logo mx-2" src="images/program_icon_04.png" alt="art logo">
+            <h4 class="event_name m-3">Poetry</h4>
+            <p class="event_deets text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </li>
+          <li class="border m-2 event_main d-flex align-items-center">
+            <img class="event_logo mx-2" src="images/program_icon_05.png" alt="food logo">
+            <h4 class="event_name m-3">Food</h4>
+            <p class="event_deets">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </li>
+          <li class="border m-2 event_main d-flex align-items-center">
+            <img class="event_logo mx-2" src="images/program_icon_05.png" alt="party logo">
+            <h4 class="event_name m-3 text-justify">Fun</h4>
+            <p class="event_deets">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </li>
+        </ul>
+
+        <button class="btn-event btn btn-lg">Get your TICKET 🎟️</button>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid artists my-4 d-flex flex-column align-items-center">
+        <h2 class="event_deets_artists">Featured Artists and Groups</h2>
+        <hr align="center" width="10%" size="4">
+
+        <div class="artists d-flex my-3 align-items-center">
+          <img class="pics mx-2" src="images/shinski.webp" alt="shinski">
+          <div class="artist_info">
+            <h3 class="artist_name my-0 fw-bold py-2">Nyashinski</h3>
+            <p class="artist_type my-0 py-1">Rapper/Singer</p>
+            <p class="artist_rating my-0 py-1">Rating: ⭐️⭐️⭐️⭐️⭐️</p>
+            <hr align="center" class="my-0" width="8%" size="4">
+            <p class="artist_desc my-0 py-1">Nyamari Ongegu popularly known as Nyanshinski is a well known Kenyan singer,
+              songwriter, and rapper. He first attained recognition as a member of the group, Kleptomaniax alongside
+              Collo
+              (Collins Majale) and Roba (Robert Manyasa).</p>
+          </div>
+        </div>
+        <div class="artists d-flex my-3">
+          <img class="pics mx-2 my-2" src="images/femi-one.webp" alt="femi">
+          <div class="artist_info">
+            <h3 class="artist_name fw-bold my-0 py-2">Femi One</h3>
+            <p class="artist_type my-0 py-1">Rapper</p>
+            <p class="artist_rating my-0 py-1">Rating: ⭐️⭐️⭐️⭐️⭐️</p>
+            <hr align="center" class="my-0" width="8%" size="4">
+            <div class="line_left"></div>
+            <p class="artist_desc py-1">Femi one was introduced to the scene by King Kaka in his major hit 'Ligi Soo' the
+              remix. For the longest time she referred to herself as Femi One Shiku. Femi one appeared on one half of
+              the song with other female rappers and she really stood out for her flow and demeanor in the song.</p>
+          </div>
+        </div>
+
+        <button class="btn art-btn btn-lg border">MORE<img class="chev" src="images/arrow_down.png"
+            alt="arrow down"></button>
+      </div>
+    </section>
+  </main>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 <script src="script.js"></script>
+
 </html>

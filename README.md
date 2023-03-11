@@ -132,8 +132,9 @@ If you like this project give me a follow
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse
+Logo:(<a href="https://www.vectorstock.com/royalty-free-vector/lion-head-logo-design-vector-39141310">Vector image by VectorStock / arirushstudio</a>)
 
+Website template: [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
