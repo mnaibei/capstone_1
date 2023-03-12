@@ -358,10 +358,7 @@ button {
     /* padding: 20px; */
   }
 
-  /* .desk-navbar{
-    position: fixed;
-    width: 100%;
-  } */
+  
 
   .logo-desk{
     width: 50px;
@@ -372,6 +369,7 @@ button {
   .welcome-container{
     text-align: justify;
     margin: 60px;
+    margin-top: 250px;
   }
 
   .welcome-top{
@@ -502,6 +500,7 @@ button {
     justify-content: center;
     padding: 30px;
     gap: 30px;
+    margin-top: 150px;
   }
 
   #past_event_pics{
