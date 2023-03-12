@@ -83,14 +83,34 @@ body {
   text-decoration: none;
 }
 
+.navbar{
+  position: fixed;
+  margin-top: 30px;
+}
+
 /* first section */
 .intro {
   background-image: url("images/mobile-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 75vh;
 }
 
-.welcome {
+.welcome-container, .welcome-container-about{
+  height: 80%;
+  margin-top: 100px;
+}
+
+.welcome-container-about{
+  text-align: center;
+}
+
+.welcome, .welcome-top {
   color: #ec5242;
+}
+
+.welcome br{
+  display: none;
 }
 
 .top {
@@ -150,9 +170,13 @@ button {
   color: #fff;
 }
 
+.desktop-event-btn{
+  display: none;
+}
+
 /* artist section */
 
-.pics {
+.pics, .pics-femi {
   width: 20%;
   height: 20%;
 }
@@ -177,30 +201,52 @@ button {
   color: #ec5242;
 }
 
+#artists-desktop{
+  display: none;
+}
+
 /* partner section */
 .partners {
   background-color: #272a31;
   color: #fff;
-  min-height: 250px;
 }
 
-.partner-1 {
-  width: 130px;
+#partners-about{
+  display: flex;
+}
+
+#partners-index{
+  display: none;
+}
+
+/* .partner-1 {
+  width: 100px;
   margin: 20px;
-}
-
+} */
+.partner-1,
 .partner-2,
 .partner-3,
 .partner-4,
 .partner-5 {
-  width: 130px;
+  width: 90px;
   margin: 20px;
   align-self: center;
 }
 
-.partnerships {
+/* .partnerships {
   width: 100%;
   height: 200px;
+} */
+
+#partnerships-about{
+  /* border: 5px solid red; */
+  display: flex;
+  /* min-height: 250px; */
+  /* flex-direction: column; */
+  width: 100%;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 /* about page  */
@@ -220,3 +266,257 @@ button {
   width: 120px;
   height: 120px;
 }
+
+.desktop-navbar{
+  display: none;
+}
+
+.fb, .twitter{
+  display: none;
+}
+
+.desk-menu{
+  display: none;
+}
+
+.black_nav_desktop{
+  display: none;
+}
+
+#footer-index{
+  display: none;
+}
+
+
+@media screen and (min-width: 768px){
+  .hamburger, .navbar{
+    display: none;
+  }
+
+  /* header and nav  */
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fb, .twitter{
+    display:flex;
+    width: 20px;
+    height: 20px;
+  }
+
+  .nav_logos_desktop{
+    display:flex;
+    gap: 30px;
+  }
+
+  .black_nav_desktop{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: #272a31;
+    padding: 10px;
+    gap: 50px;
+  }
+
+  .black_nav_desktop a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .desk-menu{
+    display: flex;
+  }
+
+  .desk-menu a{
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  #about-desk, #cc{
+    color: #ec5242;
+  }
+
+  #cc{
+    border: 5px solid ;
+    padding: 5px;
+  }
+
+  .menu{
+    display: flex;
+    order: 2;
+  }
+
+  .menu{
+    border: 2px solid;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #fff;
+    height: 4rem;
+    align-items: center;
+    /* padding: 20px; */
+  }
+
+  .logo-desk{
+    width: 50px;
+    height: 50px;
+  }
+
+  /* welcome section  */
+  .welcome-container{
+    text-align: justify;
+    margin: 60px;
+  }
+
+  .welcome-top{
+    font-size: 35px;
+    color: #ec5242;
+  }
+
+  .welcome, .break{
+    font-size: 45px;
+    color: rgba(255, 101, 11, 1);
+  }
+
+  /* event section  */
+  .event{
+    justify-content: center;
+    min-height: 500px;
+  }
+
+  /* .event_deets_header{ */
+    /* order: 1; */
+    /* margin-top: -500px; */
+    
+  /* } */
+
+  .test>*{
+    /* border: 5px solid white; */
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 30px; */
+    /* height: 500px; */
+    /* margin-top: 160px; */
+    /* order: 2; */
+  }
+
+  .event_main{
+    width: 17.7%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event_name, .event_deets{
+    text-align: center
+  }
+  .event_logo{
+    width: 40px;
+    height: 40px;
+  }
+
+  .btn-event{
+    display: none;
+  }
+
+  .desktop-event-btn{
+    display: block;
+  }
+
+  .desktop-event-btn a{
+    color: #fff;
+    font-size: 0.8rem;
+  }
+
+  /* artists section  */
+
+  .pics-femi{
+    width: 20px;
+    height: 20px;
+  }
+
+  .artists-main{
+    border: 5px solid red;
+    /* width: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    height: calc(17rem * 2 + 2.7rem);
+    justify-content: center;
+  
+  }
+
+  .artists>*{
+    border: 5px solid;
+    width: 35vw;
+    /* height: 70px; */
+    /* justify-content: center; */
+    /* align-items: ; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* margin: 0;
+    padding: 0; */
+  }
+
+  .pics-femi, .pics{
+    width: 80px;
+    height: 80px;
+  }
+
+  .artist_name, .artist_rating, .artist_desc{
+    font-size: .2rem;
+  }
+
+  .art-btn{
+    display: none;
+  }
+
+  /* about page  */
+  .welcome-container-about{
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  #past_event_pics{
+    gap: 20px;
+  }
+
+  .partners{
+    margin-bottom: 0;
+    margin-top: 50px;
+  }
+
+  #partners-about{
+    display: none;
+  }
+
+  #partners-index{
+    display:flex;
+  }
+
+  #partnerships-desktop{
+    display: flex;
+    /* border: 5px solid red; */
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+  }
+
+/* footer section  */
+  #footer-about{
+    background-color: #272a31;
+    color: #fff;
+    margin-top: 50px;
+  }
+
+  #footer-index{
+    display: flex;
+  }
+}
+  

@@ -14,10 +14,10 @@
 <body>
   <main>
     <section>
-      <div class="container-fluid intro d-flex flex-column align-items-start justify-content-evenly">
+      <div class="container-fluid intro d-flex flex-column col-sm-12 col-md-12">
         <header>
           <div class="navbar">
-            <div class="container">
+            <div class="container col">
               <ul class="mobile">
                 <li class="nav-mobile"><a href="#event" class="event-page">Event</a></li>
                 <li class="nav-mobile"><a href="about.html" class="about">About</a></li>
@@ -30,12 +30,32 @@
               </div>
             </div>
           </div>
+            <div class="black_nav_desktop">
+              <div class="nav_logos_desktop">
+                <a href="www.facebook.com"><img class="fb" src="images/facebook.png" alt="facebook logo"></a>
+                <a href="www.twitter.com"><img class="twitter" src="images/twitter.png" alt="twitter logo"></a>
+              </div>
+              <a href="#">English</a>
+              <a href="#">My Page</a>
+              <a href="#">Korean</a>
+            </div>
+            <div class="desk-menu">
+              <ul class="menu">
+                <a href="index.html"><img class="logo-desk" src="images/lion-logo.png" alt="logo"><img></a>
+                <li><a id="about-desk" href="about.html">About</a></li>
+                <li><a href="#welcome">Program</a></li>
+                <li><a href="#welcome">Join</a></li>
+                <li><a href="#welcome">Sponsor</a></li>
+                <li><a href="#welcome">News</a></li>
+                <li><a id="cc" href="#welcome">CC Campaign</a></li>
+              </ul>
+            </div>
         </header>
 
-        <div class="welcome-container">
-          <h2 class="welcome top">Welcome all!</h2>
-          <h1 class="welcome fw-bold">TO THE GREATEST CONCERT WEEK</br>
-            <div> IN THE 254🔥</div>
+        <div class="welcome-container d-flex flex-column justify-content-between">
+          <h2 class="welcome-top top" id="welcome-about-page">Welcome all!</h2>
+          <h1 class="welcome fw-bold">TO THE GREATEST CONCERT<br />
+            WEEK <div class="break">IN THE 254🔥</div>
           </h1>
           <p class="desc border border-white border-3 bg-light">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tempore quaerat doloribus eius, animi
@@ -50,8 +70,9 @@
     </section>
     <section>
       <div class="container-fluid event d-flex flex-column align-items-center my-5 p-4">
-        <h2 class="event_deets_header">What to expect</h2>
+        <h2 class="event_deets_header ">What to expect</h2>
         <hr align="center" width="10%" size="4">
+        <div class="test">
         <ul>
           <li class="border m-2 event_main d-flex align-items-center justify-content-center">
             <img class="event_logo mx-2" src="images/program_icon_01.png" alt="music logo">
@@ -79,16 +100,17 @@
             <p class="event_deets">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </li>
         </ul>
-
+        </div>
         <button class="btn-event btn btn-lg">Get your TICKET 🎟️</button>
+        <h3 class="desktop-event-btn text-decoration-underline"> <a href="" class="href"> SEE THE WHOLE PROGRAM</a></h3>
       </div>
     </section>
     <section>
-      <div class="container-fluid artists my-4 d-flex flex-column align-items-center">
+      <div class="container-fluid artists-main my-4 d-flex flex-column align-items-center">
         <h2 class="event_deets_artists">Featured Artists and Groups</h2>
         <hr align="center" width="10%" size="4">
-
-        <div class="artists d-flex my-3 align-items-center">
+        <div class="artists"></div>
+       <div class="artists d-flex my-3 align-items-center">
           <img class="pics mx-2" src="images/shinski.webp" alt="shinski">
           <div class="artist_info">
             <h3 class="artist_name my-0 fw-bold py-2">Nyashinski</h3>
@@ -101,8 +123,61 @@
               (Collins Majale) and Roba (Robert Manyasa).</p>
           </div>
         </div>
-        <div class="artists d-flex my-3">
-          <img class="pics mx-2 my-2" src="images/femi-one.webp" alt="femi">
+        <div class="artists d-flex my-3 align-items-center">
+          <img class="pics-femi mx-2 my-2" src="images/femi-one.webp" alt="femi">
+          <div class="artist_info">
+            <h3 class="artist_name fw-bold my-0 py-2">Femi One</h3>
+            <p class="artist_type my-0 py-1">Rapper</p>
+            <p class="artist_rating my-0 py-1">Rating: ⭐️⭐️⭐️⭐️⭐️</p>
+            <hr align="center" class="my-0" width="8%" size="4">
+            <div class="line_left"></div>
+            <p class="artist_desc py-1">Femi one was introduced to the scene by King Kaka in his major hit 'Ligi Soo' the
+              remix. For the longest time she referred to herself as Femi One Shiku. Femi one appeared on one half of
+              the song with other female rappers and she really stood out for her flow and demeanor in the song.</p>
+          </div>
+        </div>
+
+        <div class="artists artists-desktop d-flex my-3 align-items-center" id="artists-desktop">
+          <img class="pics-femi mx-2 my-2" src="images/femi-one.webp" alt="femi">
+          <div class="artist_info">
+            <h3 class="artist_name fw-bold my-0 py-2">Femi One</h3>
+            <p class="artist_type my-0 py-1">Rapper</p>
+            <p class="artist_rating my-0 py-1">Rating: ⭐️⭐️⭐️⭐️⭐️</p>
+            <hr align="center" class="my-0" width="8%" size="4">
+            <div class="line_left"></div>
+            <p class="artist_desc py-1">Femi one was introduced to the scene by King Kaka in his major hit 'Ligi Soo' the
+              remix. For the longest time she referred to herself as Femi One Shiku. Femi one appeared on one half of
+              the song with other female rappers and she really stood out for her flow and demeanor in the song.</p>
+          </div>
+        </div>
+        <div class="artists d-flex my-3 align-items-center" id="artists-desktop">
+          <img class="pics-femi mx-2 my-2" src="images/femi-one.webp" alt="femi">
+          <div class="artist_info">
+            <h3 class="artist_name fw-bold my-0 py-2">Femi One</h3>
+            <p class="artist_type my-0 py-1">Rapper</p>
+            <p class="artist_rating my-0 py-1">Rating: ⭐️⭐️⭐️⭐️⭐️</p>
+            <hr align="center" class="my-0" width="8%" size="4">
+            <div class="line_left"></div>
+            <p class="artist_desc py-1">Femi one was introduced to the scene by King Kaka in his major hit 'Ligi Soo' the
+              remix. For the longest time she referred to herself as Femi One Shiku. Femi one appeared on one half of
+              the song with other female rappers and she really stood out for her flow and demeanor in the song.</p>
+          </div>
+        </div>
+        <div class="artists artists-desktop d-flex my-3 align-items-center">
+          <img class="pics-femi mx-2 my-2" src="images/femi-one.webp" alt="femi">
+          <div class="artist_info">
+            <h3 class="artist_name fw-bold my-0 py-2">Femi One</h3>
+            <p class="artist_type my-0 py-1">Rapper</p>
+            <p class="artist_rating my-0 py-1">Rating: ⭐️⭐️⭐️⭐️⭐️</p>
+            <hr align="center" class="my-0" width="8%" size="4">
+            <div class="line_left"></div>
+            <p class="artist_desc py-1">Femi one was introduced to the scene by King Kaka in his major hit 'Ligi Soo' the
+              remix. For the longest time she referred to herself as Femi One Shiku. Femi one appeared on one half of
+              the song with other female rappers and she really stood out for her flow and demeanor in the song.</p>
+          </div>
+        </div>
+        <div class="artists d-flex artists-desktop my-3 align-items-center">
+          <img class="pics-femi mx-2 my-2" src="images/femi-one.webp" alt="femi">
           <div class="artist_info">
             <h3 class="artist_name fw-bold my-0 py-2">Femi One</h3>
             <p class="artist_type my-0 py-1">Rapper</p>
@@ -119,6 +194,23 @@
             alt="arrow down"></button>
       </div>
     </section>
+    <section>
+      <div id="partners-index" class="partners container-fluid p-4 flex-column align-items-center">
+          <h2>Partner</h2>
+          <hr align="center" width="10%" size="4">
+          <div id="partnerships-desktop" class="partnerships p-3">
+              <img class="partner-1 img-fluid mx-2 p-2" src="images/mozilla.PNG" alt="mozilla logo">
+              <img class="partner-2 img-fluid mx-3" src="images/google.PNG" alt="google logo">
+              <img class="partner-3 img-fluid mx-3" src="images/naver.PNG" alt="naver logo">
+              <img class="partner-4 img-fluid mx-3" src="images/daumkakao.PNG" alt="daumkakao logo">
+              <img class="partner-5 img-fluid mx-3" src="images/airbnb.PNG" alt="airbnb logo">
+          </div>
+      </div>
+  </section>
+  <footer id="footer-index" class="footer container-fluid justify-content-between p-5 align-items-center">
+    <img class="footer-logo" src="images/lion-logo.png" alt="logo">
+    <p>+254 Concerts 2023 <br>&copy; All rights reserved</p>
+</footer>
   </main>
 
 

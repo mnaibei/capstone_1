@@ -13,7 +13,7 @@
 
 <body>
     <section>
-        <div class="container-fluid intro d-flex flex-column align-items-start justify-content-evenly text-center">
+        <div class="container-fluid intro d-flex flex-column col-sm-12 col-md-12">
             <header>
                 <div class="navbar">
                     <div class="container">
@@ -29,11 +29,31 @@
                         </div>
                     </div>
                 </div>
+                <div class="black_nav_desktop">
+                    <div class="nav_logos_desktop">
+                      <a href="www.facebook.com"><img class="fb" src="images/facebook.png" alt="facebook logo"></a>
+                      <a href="www.twitter.com"><img class="twitter" src="images/twitter.png" alt="twitter logo"></a>
+                    </div>
+                    <a href="#">English</a>
+                    <a href="#">My Page</a>
+                    <a href="#">Korean</a>
+                  </div>
+                  <div class="desk-menu">
+                    <ul class="menu">
+                      <a href="index.html"><img class="logo-desk" src="images/lion-logo.png" alt="logo"><img></a>
+                      <li><a id="about-desk" href="about.html">About</a></li>
+                      <li><a href="#welcome">Program</a></li>
+                      <li><a href="#welcome">Join</a></li>
+                      <li><a href="#welcome">Sponsor</a></li>
+                      <li><a href="#welcome">News</a></li>
+                      <li><a id="cc" href="#welcome">CC Campaign</a></li>
+                    </ul>
+                  </div>
             </header>
-            <div class="welcome-container">
+            <div class="welcome-container-about d-flex flex-sm-column flex-column">
             <h2 class="welcome top">Welcome all!</h2>
             <h1 class="welcome fw-bold">TO THE GREATEST CONCERT WEEK</br>
-                <div> IN THE 254🔥</div>
+                <div class="break"> IN THE 254🔥</div>
             </h1>
             <p id="desc-about" class="desc-about border border-3 bg-white">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tempore quaerat doloribus eius, animi
@@ -41,13 +61,13 @@
                 earum voluptatem reprehenderit corrupti alias? Corrupti error veritatis laboriosam repellendus
                 voluptates, voluptatibus saepe, ipsa, laborum ex quae rerum sed quia mollitia?
             </p>
-            <p id="contact">Please contact us via email incase of any further questions at <span>+254concerts.com</span>
+            <p id="contact">Please contact us via email incase of any further questions at <span class="fw-bold text-decoration-underline">+254concerts@kenya.com ></span>
             </p>
             </div>
         </div>
     </section>
     <section>
-        <div class="container-fluid my-3 p-4 d-flex flex-column align-items-center text-center">
+        <div class="container-fluid my-3 p-4 d-flex flex-sm-column flex-column align-items-center text-center">
             <h2>+254 Concert Week Logo</h2>
             <hr align="center" width="10%" size="4">
             <p id="logo_copyright">The logo of 254 Concerts Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -63,27 +83,27 @@
             <h2 id="past_title">See our past events!</h2>
             <hr align="center" width="10%" size="4">
             <p id="past_text">Take a look at past editions of our events held in Nakuru and Mombasa</p>
-            <div id="past_event_pics" class="d-flex flex-column my-2">
+            <div id="past_event_pics" class="d-flex flex-column flex-sm-row my-2">
                 <img id="past_pics" class="my-2" src="images/photo_1.PNG" alt="past event 2013">
                 <img id="past_pics" class="my-2" src="images/photo_2.PNG" alt="past event 2011">
             </div>
         </div>
     </section>
     <section>
-        <div id="partners" class="partners container-fluid my-5 p-4 d-flex flex-column align-items-center">
+        <div id="partners-about" class="partners container-fluid p-4 flex-sm-column flex-column align-items-center">
             <h2>Partner</h2>
             <hr align="center" width="10%" size="4">
-            <!-- <div id="partnerships" class="partnerships my-2 border border-3 align-items-center justify-content-around p-3">
+            <div id="partnerships-about" class="partnerships  p-3">
                 <img class="partner-1 img-fluid mx-2 p-2" src="images/mozilla.PNG" alt="mozilla logo">
                 <img class="partner-2 img-fluid mx-3" src="images/google.PNG" alt="google logo">
                 <img class="partner-3 img-fluid mx-3" src="images/naver.PNG" alt="naver logo">
                 <img class="partner-4 img-fluid mx-3" src="images/daumkakao.PNG" alt="daumkakao logo">
                 <img class="partner-5 img-fluid mx-3" src="images/airbnb.PNG" alt="airbnb logo">
-            </div> -->
+            </div>
         </div>
     </section>
 
-    <footer class="footer container-fluid d-flex justify-content-between p-2 my-0 align-items-center">
+    <footer id="footer-about" class="footer container-fluid d-flex justify-content-between p-5 align-items-center">
         <img class="footer-logo" src="images/lion-logo.png" alt="logo">
         <p>+254 Concerts 2023 <br>&copy; All rights reserved</p>
     </footer>
