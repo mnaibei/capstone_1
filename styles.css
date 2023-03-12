@@ -441,22 +441,36 @@ button {
   .artists-main{
     border: 5px solid red;
     /* width: auto; */
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: calc(20rem * 2 + 2rem);
+    justify-content: center;
+    align-items: center; */
+  
+  }
+
+  .test-artists{
+    border: 5px solid green;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
-    height: calc(17rem * 2 + 2.7rem);
-    justify-content: center;
-  
+    
+    /* height: calc(25rem * 2 + 2rem); */
+    justify-content: space-around;
+    align-items: center;
+    
   }
 
   .artists>*{
     border: 5px solid;
-    width: 35vw;
+    width: 40vw;
+    height: 9rem;
+    /* width: 480px; */
     /* height: 70px; */
-    /* justify-content: center; */
+    /* justify-content: baseline; */
     /* align-items: ; */
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     /* margin: 0;
     padding: 0; */
@@ -468,7 +482,8 @@ button {
   }
 
   .artist_name, .artist_rating, .artist_desc{
-    font-size: .2rem;
+    font-size: 10px;
+    
   }
 
   .art-btn{
