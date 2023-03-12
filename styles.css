@@ -83,7 +83,7 @@ body {
   text-decoration: none;
 }
 
-.navbar{
+.mobile-navbar{
   position: fixed;
   margin-top: 30px;
 }
@@ -289,7 +289,7 @@ button {
 
 
 @media screen and (min-width: 768px){
-  .hamburger, .navbar{
+  .hamburger, .mobile-navbar{
     display: none;
   }
 
@@ -348,7 +348,7 @@ button {
   }
 
   .menu{
-    border: 2px solid;
+    /* border: 2px solid; */
     width: 100%;
     justify-content: space-around;
     list-style: none;
@@ -357,6 +357,11 @@ button {
     align-items: center;
     /* padding: 20px; */
   }
+
+  /* .desk-navbar{
+    position: fixed;
+    width: 100%;
+  } */
 
   .logo-desk{
     width: 50px;
@@ -438,8 +443,8 @@ button {
     height: 20px;
   }
 
-  .artists-main{
-    border: 5px solid red;
+  /* .artists-main{ */
+    /* border: 5px solid red; */
     /* width: auto; */
     /* display: flex;
     flex-wrap: wrap;
@@ -448,10 +453,10 @@ button {
     justify-content: center;
     align-items: center; */
   
-  }
+  /* } */
 
   .test-artists{
-    border: 5px solid green;
+    /* border: 5px solid green; */
     display: flex;
     flex-wrap: wrap;
     
@@ -462,9 +467,9 @@ button {
   }
 
   .artists>*{
-    border: 5px solid;
-    width: 40vw;
-    height: 9rem;
+    /* border: 5px solid; */
+    width: 30vw;
+    height: 6rem;
     /* width: 480px; */
     /* height: 70px; */
     /* justify-content: baseline; */
@@ -474,6 +479,7 @@ button {
     flex-direction: column;
     /* margin: 0;
     padding: 0; */
+    /* flex: 1; */
   }
 
   .pics-femi, .pics{
