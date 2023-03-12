@@ -175,10 +175,9 @@ button {
 }
 
 /* artist section */
-
-.pics, .pics-femi {
-  width: 20%;
-  height: 20%;
+.pics-femi, .pics{
+  width: 90px;
+  height: 90px;
 }
 
 .art-btn {
@@ -436,10 +435,10 @@ button {
 
   /* artists section  */
 
-  .pics-femi{
+  /* .pics-femi{
     width: 20px;
     height: 20px;
-  }
+  } */
 
   /* .artists-main{ */
     /* border: 5px solid red; */
@@ -481,8 +480,8 @@ button {
   }
 
   .pics-femi, .pics{
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
 
   .artist_name, .artist_rating, .artist_desc{
