@@ -149,6 +149,7 @@ hr {
 
 .event_main {
   min-height: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .event_logo {
@@ -247,6 +248,12 @@ button {
   border-bottom: 1px solid lightgrey;
   width: 90%;
   justify-content: center;
+}
+
+#past_event_pics {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* footer  */
@@ -354,6 +361,8 @@ button {
     text-align: justify;
     margin: 60px;
     margin-top: 250px;
+    width: 60vw;
+    margin-left: 150px;
   }
 
   .welcome-top {
@@ -385,6 +394,7 @@ button {
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
   }
 
   .event_name,
@@ -451,6 +461,8 @@ button {
 
   #past_event_pics {
     gap: 20px;
+    display: flex;
+    flex-direction: row;
   }
 
   #welcome-about-page {
