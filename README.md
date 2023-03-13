@@ -46,6 +46,16 @@
 > HTML&CSS Javascript
 
 
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[Mobile version with hamburger menu]**
+- **[Dynamic featured artist section using JS]**
+- **[About page with details on logo design]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://mnaibei.github.io/capstone_1/index.html)
