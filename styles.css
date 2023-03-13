@@ -376,6 +376,12 @@ button {
     color: rgba(255, 101, 11, 1);
   }
 
+  .desc,
+  .desc-about {
+    font-size: 14px;
+    padding: 16px;
+  }
+
   /* event section  */
   .event {
     justify-content: center;
@@ -395,6 +401,11 @@ button {
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
+
+  .event_main:hover {
+    border: 1px solid white;
   }
 
   .event_name,
