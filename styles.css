@@ -89,7 +89,7 @@ body {
 
 /* first section */
 .intro {
-  background-image: url("images/mobile-background.png");
+  background-image: url("images/background-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 75vh;
@@ -225,7 +225,7 @@ button {
 .partner-3,
 .partner-4,
 .partner-5 {
-  width: 90px;
+  /* width: 90px; */
   margin: 20px;
   align-self: center;
 }
@@ -291,8 +291,8 @@ button {
   .fb,
   .twitter {
     display: flex;
-    width: 20px;
-    height: 20px;
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
   }
 
   .nav_logos_desktop {

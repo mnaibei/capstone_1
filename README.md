@@ -48,7 +48,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://mnaibei.github.io/capstone_1/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,7 +103,6 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Javascript]**
 - [ ] **[More_Pages]**
 - [ ] **[More_Media]**
 
@@ -133,6 +132,23 @@ If you like this project give me a follow
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 Logo:(<a href="https://www.vectorstock.com/royalty-free-vector/lion-head-logo-design-vector-39141310">Vector image by VectorStock / arirushstudio</a>)
+
+icons: Flat Icons <a href="https://www.flaticon.com/free-icons/friends" title="friends icons"> Icons created by Freepik - Flaticon</a>
+
+Background images: (freepik.com)
+
+Artist images:
+Mejja: (https://justvideolife.com/2022/02/mejja-usiniharibie-mood.html)
+
+Shinski: (https://www.last.fm/music/Nyashinski/+images)
+
+Femi One: (https://www.last.fm/music/Femi+One/+images/e284ab7d8e99830a1d05a20a19ef10f4)
+
+Jua Cali: (https://web.facebook.com/juacaliofficial/?_rdc=1&_rdr)
+
+Nameless: (https://www.homekazi.co.ke/celebs/bio/nameless)
+
+Papa Jones: (https://www.last.fm/music/Khaligraph+Jones/+images)
 
 Website template: [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
